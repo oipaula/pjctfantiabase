@@ -1,0 +1,168 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #071108;
+}
+
+#cor-titulo {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #071108;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#cor-titulo, h2, h3 {
+    color: white;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 300px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 50px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+input[type="text"], input[type="e-mail"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #071108;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.forms-autentica {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+    color: whitesmoke;
+}
+
+button {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #071108;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #0a1710;
+}
+
+button:active {
+    background-color: #050b07;
+}
+
+/* Estilos para o menu dropdown */
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #071108;
+    padding: 10px 10px;
+}
+
+#banner h1 {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > .usuario {
+    color: whitesmoke;
+}
+
+nav > span {
+    margin: 0 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #071108;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

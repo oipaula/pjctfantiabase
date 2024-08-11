@@ -1,0 +1,158 @@
+.usuario {
+    color: whitesmoke;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #071108;
+    padding: 15px;
+}
+
+#banner h1 {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > .usuario {
+    color: whitesmoke;
+}
+
+nav > span {
+    margin: 0 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.dropbtn {
+    background-color: #071108;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+    background-color: #032e25;
+    color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #032e29;
+}
+
+/* Outros estilos já definidos */
+#conteudo {
+    padding: 40px;
+    position: absolute;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+footer {
+    background-color: #071108;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+}
+
+#cor-titulo {
+    color: white;
+}
+
+p {
+    margin: 5px;
+}
+
+button {
+    margin: 10px;
+}
+
+#cxprincipal, #cxindex {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cxindex {
+    width: 700px;
+}
+
+header #cxlogin {
+    text-align: center;
+}
+
+#cxlogin input[type="email"], #cxlogin input[type="password"], input[type="text"], input[type="e-mail"], input[type="password"] {
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#cxlogin input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #071108;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
